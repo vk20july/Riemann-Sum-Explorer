@@ -9,8 +9,19 @@ const FUNCTION_LIBRARY = {
     evaluate: x => x * x,
     exactArea: (start, end) => (end ** 3 - start ** 3) / 3,
     start: 0,
-    end: 5,
-    rectangles: 12
+    end: 8,
+    rectangles: 10
+  },
+  tangent: {
+    name: "Tangent",
+    formula: "f(x) = tan(x)",
+    evaluate: Math.tan,
+    exactArea: (start, end) =>
+      -Math.log(Math.abs(Math.cos(end))) +
+      Math.log(Math.abs(Math.cos(start))),
+    start: -Math.PI / 4,
+    end: Math.PI / 4,
+    rectangles: 10
   },
   sine: {
     name: "Sine wave",
@@ -19,16 +30,16 @@ const FUNCTION_LIBRARY = {
     exactArea: (start, end) => -Math.cos(end) + Math.cos(start),
     start: 0,
     end: Math.PI * 2,
-    rectangles: 12
+    rectangles: 10
   },
   straightLine: {
     name: "Linear",
-    formula: "f(x) = 2x + 1",
-    evaluate: x => 2 * x + 1,
+    formula: "f(x) = 5x + 2",
+    evaluate: x => 5 * x + 2,
     exactArea: (start, end) => (end * end + end) - (start * start + start),
     start: 0,
-    end: 5,
-    rectangles: 12
+    end: 8,
+    rectangles: 10
   }
 };
 
