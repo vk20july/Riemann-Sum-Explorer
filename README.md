@@ -281,9 +281,7 @@ The graph and numerical values are derived from the current application state. W
 The Riemann approximation is calculated using:
 
 $$
-\text{Approximation}
-=
-\sum_{i=1}^{n} f(x_i)\Delta x
+\text{Approximation}=\sum_{i=1}^{n} f(x_i)\Delta x
 $$
 
 where:
