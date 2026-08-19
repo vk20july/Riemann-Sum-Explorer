@@ -450,12 +450,12 @@ riemann-sums/
 ## 14. Live Demo
 
 **Live Demo:**  
-`<ADD_YOUR_LIVE_DEMO_URL_HERE>`
+`https://vk20july.github.io/Riemann-Sum-Explorer/`
 
 ## 15. GitHub Repository
 
 **GitHub:**  
-`<ADD_YOUR_GITHUB_REPOSITORY_URL_HERE>`
+`https://github.com/vk20july/Riemann-Sum-Explorer`
 
 ---
 
